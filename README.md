@@ -10,7 +10,7 @@ Do create a .env file with the following configurations:
 ````
 LANGCHAIN_API_KEY=[langchain api key](https://docs.smith.langchain.com/how_to_guides/setup/create_account_api_key)
 endpoint = [endpoint found in Azure AI Studios/ Resources and Keys/ Resource name/ </> View Code]
-az_path = [path to azure cli which is found from typing ````az where```` in cmd]
+az_path = [path to azure cli which is found from typing `az where` in cmd]
 ver=[api version of azure open ai api to be found in Azure AI Studios/ Resources and Keys/ Chat playground/ </> View Code]
 embed_model=[deployment name of embedding model. I used text embedding 3 large]
 gpt-4=[deployment name of gpt 4 model]
