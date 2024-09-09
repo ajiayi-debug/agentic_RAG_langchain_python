@@ -15,7 +15,7 @@ In terminal to install all dependencies
 
 Do create a .env file with the following configurations:
 ````
-LANGCHAIN_API_KEY=[langchain api key](https://docs.smith.langchain.com/how_to_guides/setup/create_account_api_key)
+LANGCHAIN_API_KEY=[langchain api key]
 endpoint = [endpoint found in Azure AI Studios/ Resources and Keys/ Resource name/ </> View Code]
 az_path = [path to azure cli which is found from typing `az where` in cmd, only necessary if device cannot find az cli]
 ver=[api version of azure open ai api to be found in Azure AI Studios/ Resources and Keys/ Chat playground/ </> View Code]
@@ -23,7 +23,7 @@ embed_model=[deployment name of embedding model. I used text embedding 3 large]
 gpt-4=[deployment name of gpt 4 model.]
 gpt-35=[deployment name of gpt 3.5 turbo model.]
 ````
-
+You can get your langchain api key by following the [instructions](https://docs.smith.langchain.com/how_to_guides/setup/create_account_api_key)
 ### (If device can find path to Azure CLI):
 in [agentic_chunking_sample](agentic_chunking_sample.py), line 40-44:
 
