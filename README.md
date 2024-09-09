@@ -13,8 +13,9 @@ endpoint = [endpoint found in Azure AI Studios/ Resources and Keys/ Resource nam
 az_path = [path to azure cli which is found from typing `az where` in cmd]
 ver=[api version of azure open ai api to be found in Azure AI Studios/ Resources and Keys/ Chat playground/ </> View Code]
 embed_model=[deployment name of embedding model. I used text embedding 3 large]
-gpt-4=[deployment name of gpt 4 model]
-gpt-35=[deployment name of gpt 3.5 turbo model]
+gpt-4=[deployment name of gpt 4 model.]
+gpt-35=[deployment name of gpt 3.5 turbo model.]
 ````
-
+## Notes
+This repo was created as a template for my other projects. I noticed that the output produced is slightly different from the tutorial, but the end result is the same in terms of generation. I am currently not too sure why and will need to investigate. 
 
