@@ -4,6 +4,13 @@ With reference from [langchain tutorial on agentic RAG](https://langchain-ai.git
 
 Take note that Azure open ai was used (instead of open ai module ) and the ipynb in the tutorial is converted into a singular python script. I was unable to connect to langchain to pull prompt template so I manually created a file called [prompt_template](prompt_template.py) to insert the prompt template due to SSL certificate errors (potentially due to firewalls).
 
+## requirements.txt
+To start, run
+````
+pip install -r requirements.txt
+````
+In terminal to install all dependencies
+
 ## .env file
 
 Do create a .env file with the following configurations:
