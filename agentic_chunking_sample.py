@@ -32,7 +32,7 @@ from langgraph.prebuilt import ToolNode
 
 import pprint
 
-os.environ['USER_AGENT'] = 'myagent'
+
 
 load_dotenv()
 
